@@ -30,7 +30,7 @@ cd ~/Documents/vwnetworks
 vwgen add wg-meshvpn
 
 # Set the address pool of the network
-vwgen set wg-meshvpn pool-ipv4 172.20.10.0/24 pool-ipv6 2001:db8:42::/64
+vwgen set wg-meshvpn pool-ipv4 172.20.10.0/12 pool-ipv6 2001:db8:42::/64
 
 # Add 3 nodes
 # They will have IPv4 addresses fixed and IPv6 addresses dynamically calculated on demand
